@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+	android:padding="8dp">
+	<TextView
+		android:text="Lengua y Literatura"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:textColor="@android:color/black"
+		android:textAlignment="center"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/nombre_asignatura" />
+	<TextView
+		android:text="7.5"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="0dp"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:gravity="center_vertical"
+		android:textAlignment="center"
+		android:textColor="@android:color/black"
+		android:id="@+id/nota_1" />
+	<TextView
+		android:text="8"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="0dp"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:gravity="center_vertical"
+		android:textAlignment="center"
+		android:textColor="@android:color/black"
+		android:id="@+id/nota_2" />
+	<TextView
+		android:text="7.5"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="0dp"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:textColor="@android:color/black"
+		android:gravity="center_vertical"
+		android:textAlignment="center"
+		android:id="@+id/nota_final" />
+
+</LinearLayout>

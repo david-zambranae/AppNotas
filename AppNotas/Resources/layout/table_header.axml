@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+	android:background="@color/colorPrimary"
+	android:padding="8dp"
+	>
+	<TextView
+		android:text="Asignatura"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:textAlignment="center"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:textColor="@android:color/white"
+		android:textStyle="bold"
+		android:textSize="16sp"
+		android:id="@+id/header1" />
+	<TextView
+		android:text="Nota #1"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:textAlignment="center"
+		android:textColor="@android:color/white"
+		android:textStyle="bold"
+		android:textSize="16sp"
+		android:id="@+id/header2" />
+	<TextView
+		android:text="Nota #2"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:textAlignment="center"
+		android:textColor="@android:color/white"
+		android:textStyle="bold"
+		android:textSize="16sp"
+		android:id="@+id/header3" />
+	<TextView
+		android:text="Nota Final"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:textAlignment="center"
+		android:textSize="16sp"
+		android:textColor="@android:color/white"
+		android:textStyle="bold"
+		android:id="@+id/header4" />
+
+</LinearLayout>

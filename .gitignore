@@ -1,0 +1,14 @@
+#
+.vs
+
+#
+*.txt
+
+#
+/AppNotas/bin
+
+#
+/AppNotas/obj
+
+#
+/AppNotas/AppNotas.csproj.user
